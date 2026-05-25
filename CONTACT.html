@@ -2,62 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
 </head>
-
 <body>
 
-    <table width="100%">
+<table width="100%" cellpadding="10" class="navbar">
+<tr>
+    <td width="20%">
+        <img src="images/LOGO.png" alt="Logo" width="90" height="90">
+    </td>
 
-        <tr>
+    <td align="right">
+        <input type="checkbox" id="nav-toggle">
 
-            <td width="20%">
-                <img src="images/LOGO.png" alt="Logo" width="90" height="90">
-            </td>
+        <label for="nav-toggle" class="hamburger">
+            <i class="bi bi-list"></i>
+        </label>
 
-            <td align="right">
-                <a href="HOME.html">Home</a>
-                &nbsp;&nbsp;
-                <a href="ABOUT.html">About</a>
-                &nbsp;&nbsp;
-                <a href="CONTACT.html">Contact</a>
-            </td>
+        <div class="nav-links">
+            <a href="HOME.html">Home</a>
+            <a href="ABOUT.html">About</a>
+            <a href="CONTACT.html">Contact</a>
+        </div>
+    </td>
+</tr>
+</table>
 
-        </tr>
-
-    </table>
-
-    <hr>
-
+<section class="page-hero">
     <h1>Contact Me</h1>
+    <p>Feel free to reach out for opportunities, collaborations, or enquiries.</p>
+</section>
 
-    <p>
-        Feel free to get in touch with me for opportunities,
-        collaborations, or general enquiries.
-    </p>
+<section class="contact-container">
 
-    <p>
-        <b>Email:</b> kamogelomoagi13@gmail.com
-    </p>
+    <div class="contact-card">
+        <h3>Email</h3>
+        <p>kamogelomoagi13@gmail.com</p>
+    </div>
 
-    <p>
-        <b>Phone:</b> 065 655 6609
-    </p>
+    <div class="contact-card">
+        <h3>Phone</h3>
+        <p>065 655 6609</p>
+    </div>
 
-    <p>
-        <b>Location:</b> 15 Biccard, Polokwane, South Africa
-    </p>
+    <div class="contact-card">
+        <h3>Location</h3>
+        <p>15 Biccard, Polokwane</p>
+    </div>
 
+</section>
+
+<section class="social-links">
     <h2>Connect With Me</h2>
 
-    <p>
-        <a href="">LinkedIn</a>
-    </p>
+    <a href="#">LinkedIn</a>
+    <a href="#">GitHub</a>
+</section>
 
-    <p>
-        <a href="">GitHub</a>
-    </p>
+<footer class="footer">
+    <p>© 2026 Kamogelo Moagi</p>
+</footer>
 
 </body>
+
 </html>
